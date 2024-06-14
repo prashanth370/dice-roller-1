@@ -1,0 +1,134 @@
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 95%);
+}
+
+h1 {
+    color: hsl(223, 100%, 64%);
+}
+
+form {
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.815);
+}
+
+#textBox {
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid hsla(0, 0%, 0%, 0.8);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 15px;
+    background-color: hsla(2, 100%, 50%, 0.822);
+    color: white;
+    font-size: 1.0em;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsla(0, 100%, 50%, 0.225);
+}
+
+#result {
+    font-size: 1.75em;
+    font-weight: bold;
+} */
+
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #003f7f;
+}
+
+input {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 80px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #007bff;
+}
+
+#diceResult {
+    font-size: 1.5rem;
+    margin: 20px;
+    color: #333;
+}
+
+#diceImages img {
+    width: 100px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+#diceImages img:hover {
+    transform: rotate(360deg);
+}
